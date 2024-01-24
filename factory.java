@@ -54,8 +54,6 @@ public class factory {
 
         Shape shape2=shapeFactory1.getShape("square");
         shape2.draw();
-        System.out.println("Hashcode of 1 is " + shapeFactory1.hashCode());
-        System.out.println("Hashcode of  is " + shapeFactory2.hashCode());
-        
+      
     }
 }
